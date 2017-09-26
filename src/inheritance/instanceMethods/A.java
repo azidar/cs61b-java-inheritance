@@ -40,7 +40,7 @@ class Main {
 
         /* Example 2: Overridden instance method */
         // Note that the f() method is implemented in both A and its subclass, B. Thus, B's f() OVERRIDES A's f()
-        System.out.println("Example 2: " + x.f()); // Found f in g! Look no further!
+        System.out.println("Example 2: " + x.f()); // Found f in B! Look no further!
 
         /* Example 3: Overridden instance method with different static type */
         System.out.println("Example 3: " + ((A) x).f()); // Ignore static type, start from dynamic type, A. Found it!
